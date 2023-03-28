@@ -1,0 +1,252 @@
+@media screen and (max-width: 767px) {
+    /* *320을 보고 잡아야함 */
+
+    /* 공통 */
+    .wrapper {
+        padding: 54px 0 405px;
+        padding-bottom: calc(405px + env(safe-area-inset-bottom));
+    }
+
+    .inner {
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .artist {
+        padding: 0 16px;
+    }
+
+    .section .title {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    /* main */
+    #container {
+        margin-top: -54px;
+        padding-bottom: 80px;
+    }
+
+    /* .sc-visual */
+    .sc-visual .main-slide .swiper-slide::before {
+        background-image: linear-gradient(to bottom, rgba(23, 23, 23, 0.3) 1%, rgba(18, 18, 18, 0.288) 1%, rgba(18, 18, 18, 0.057) 22.667%, transparent 33.333%), linear-gradient(to top, #1a1b20, transparent 50%);
+    }
+
+    .sc-visual .main-slide .swiper-slide {
+        width: 483px;
+        height: 600px;
+        padding-top: 54px;
+    }
+
+    .sc-visual .main-slide .inner {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sc-visual .swiper-pagination {
+        top: 571px;
+    }
+
+    .sc-visual .main-slide .bg {
+        background-position-y: top;
+    }
+
+    .sc-visual .main-slide .txt-box {
+        width: 500px;
+        flex: 0 0 auto;
+        align-items: center;
+    }
+
+    .sc-visual .main-slide .artist {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sc-visual .main-slide .artist .artist-img {
+        left: 43%;
+    }
+
+    .sc-visual .main-slide .concert-name {
+        width: 100%;
+        padding: 0 16px;
+        text-align: center;
+    }
+
+    .sc-visual .main-slide .date {
+        margin-bottom: 55px;
+        text-align: center;
+    }
+
+    .sc-visual .main-slide .btn-info {
+        display: none;
+    }
+
+    .sc-visual .main-slide .img-box {
+        width: 200px;
+        height: 266px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+
+    /* sc-banner */
+    .sc-banner {
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .sc-banner .banner-swiper .swiper-slide {
+        width: 296px;
+        height: 46px;
+    }
+
+    .sc-banner .banner-swiper .swiper-slide img {
+        width: 296px;
+        height: 46px;
+    }
+
+
+
+    /* sc-next */
+    .sc-next {
+        margin-top: 48px;
+    }
+
+    .sc-next .title {
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .sc-next .next-slide .swiper-slide {
+        width: 296px;
+    }
+
+    .sc-next .next-slide .img-box::before {
+        height: 55px;
+    }
+
+    .sc-next .btn-all {
+        right: 16px;
+    }
+
+
+    /* sc-notice */
+    .sc-notice {
+        margin-top: 49px;
+    }
+
+    .sc-notice .notice-list {
+        padding-top: 17px;
+    }
+
+    .sc-notice .notice-item {
+        margin-top: 16px;
+    }
+
+    .sc-notice .notice-item .notice-title {
+        max-height: 31px;
+        -webkit-line-clamp: 2;
+        padding-right: 36px;
+        line-height: 16px;
+    }
+
+
+    /* sc-vod */
+    .sc-vod {
+        margin-top: 48px;
+    }
+
+    .sc-vod .vod-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 11px;
+    }
+
+    .sc-vod .vod-item:nth-child(-n+2) {
+        margin-top: 0;
+    }
+
+
+
+
+    /* footer */
+    #footer {
+        height: auto;
+    }
+
+    #footer .inner-bg {
+        position: relative;
+        padding: 16px 16px 21px 16px;
+        z-index: 1;
+    }
+
+    #footer .inner-bg .inner {
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* .sns-list */
+    #footer .inner-bg .sns-list {
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .appstore-wrap */
+    #footer .inner-bg .appstore-wrap {
+        margin-top: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer>.inner {
+        padding-top: 24px;
+        padding-bottom: 19px;
+    }
+
+    /* .util-area */
+    #footer .inner .util-area {
+        flex-wrap: wrap;
+        padding-top: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    /* .policy-list */
+    #footer .util-area .policy-list {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 0;
+        -webkit-box-ordinal-group: 3;
+    }
+
+    /* .lang-area */
+    #footer .util-area .lang-area {
+        flex-basis: 100%;
+        -webkit-box-ordinal-group: 2;
+        margin-bottom: 24px;
+    }
+
+    #footer .util-area .lang-area option {
+        left: 0;
+        width: 70px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+    /* .company-area */
+    #footer .inner .company-area {
+        padding-top: 18px;
+    }
+
+    #footer .company-area .addr {
+        display: block;
+    }
+}

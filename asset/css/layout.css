@@ -1,0 +1,439 @@
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 60;
+    height: 80px;
+    padding: 0 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: .2s;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#header.bg {
+    background-color: rgba(26, 27, 32, 0.9);
+}
+
+#header .header-common {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* logo */
+.header-common .logo {
+    height: 100%;
+}
+
+.header-common .logo a {
+    display: block;
+    height: 100%;
+    padding-top: 22px;
+    box-sizing: border-box;
+}
+
+.header-common .logo a::before {
+    content: '';
+    display: block;
+    width: 96px;
+    height: 36.80262px;
+    background-image: url(https://beyondlive.com/img/common-svg-fdb9a457455c4476ad3329407c283b74.svg);
+    background-size: 3160.13115px 1608.39344px;
+    background-position: -72.39344px -1416.39344px;
+    background-repeat: no-repeat;
+}
+
+/* 메뉴 영역 */
+#header .header-common .gnb-area {
+    padding-left: 36px;
+}
+
+.header-common .gnb-area .mobile-btn {
+    display: none;
+}
+
+.header-common .gnb-area .gnb-list {
+    display: flex;
+    gap: 9px;
+}
+
+.header-common .gnb-area .gnb-item {
+    min-width: 64px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.header-common .gnb-area .gnb-item:last-child {
+    min-width: 102px;
+}
+
+.header-common .gnb-area .gnb-item.mobile {
+    display: none;
+}
+
+.header-common .gnb-area .gnb-item a {
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: 400;
+    color: #E1E1E6;
+}
+
+.header-common .gnb-area .gnb-item a:hover {
+    font-weight: 900;
+    color: #fff;
+    opacity: 1;
+}
+
+.header-common .gnb-area .mobile-close {
+    display: none;
+}
+
+/* .link-login */
+#header .link-login {
+    display: block;
+    margin-left: auto;
+    min-width: auto;
+    padding: 0 20px 0 19px;
+    height: auto;
+    border-width: 1px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -.48px;
+    line-height: 30px;
+    border: 1px solid #f3f3f3;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+#header .mobile-login {
+    display: none;
+    margin-left: auto;
+}
+
+
+
+/* footer */
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 220px;
+    border-top: 1px solid;
+    border-color: #3A3A3C;
+    box-sizing: border-box;
+    background-color: #1a1b20;
+    z-index: 10;
+}
+
+#footer .inner-bg {
+    padding: 16px 0;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#footer .inner-bg .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .inner-bg .sns-list {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#footer .sns-item a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://beyondlive.com/img/common-svg-fdb9a457455c4476ad3329407c283b74.svg);
+    background-size: 4016px 2044px;
+    background-repeat: no-repeat;
+}
+
+#footer .sns-item a.facebook {
+    background-position: -792px -1724px;
+}
+
+#footer .sns-item a.facebook:hover {
+    background-position: -1176px -1724px;
+}
+
+#footer .sns-item a.twitter {
+    background-position: -408px -1724px;
+}
+
+#footer .sns-item a.twitter:hover {
+    background-position: -456px -1724px;
+}
+
+#footer .sns-item a.youtube {
+    background-position: -1032px -1724px;
+}
+
+#footer .sns-item a.youtube:hover {
+    background-position: -1080px -1724px;
+}
+
+#footer .sns-item a.insta {
+    background-position: -1224px -1724px;
+}
+
+#footer .sns-item a.insta:hover {
+    background-position: -360px -1724px;
+}
+
+#footer .sns-item a.weibo {
+    width: 25px;
+    height: 20.25px;
+    background-position: -0.05px -0.05px;
+    padding-top: 9px;
+    margin-left: 8px;
+}
+
+#footer .sns-item a.weibo:hover {
+    background-position: -30px -0.05px;
+}
+
+/* appStore-wrap */
+#footer .inner-bg .appstore-wrap {
+    display: flex;
+    gap: 8px;
+}
+
+#footer .inner-bg .appstore-wrap a {
+    display: block;
+    height: 40px;
+    background-image: url(https://beyondlive.com/img/common-svg-fdb9a457455c4476ad3329407c283b74.svg);
+    background-size: 4016px 2044px;
+    background-repeat: no-repeat;
+}
+
+#footer .inner-bg .appstore-wrap a.apple-box {
+    width: 120px;
+    background-position: -471px -1672px;
+}
+
+#footer .inner-bg .appstore-wrap a.google-box {
+    width: 135px;
+    background-position: -328px -1672px;
+}
+
+
+/* #footer .inner */
+/* util-area */
+#footer .inner .util-area {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .util-area .policy-list {
+    display: flex;
+    gap: 14px;
+}
+
+#footer .util-area .policy-item {
+    position: relative;
+    padding: 0 7px;
+}
+
+#footer .util-area .policy-item:first-child {
+    padding-left: 0;
+}
+
+#footer .util-area .policy-item::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -7px;
+    width: 1px;
+    height: 14px;
+    background-color: #3A3A3C;
+}
+
+#footer .util-area .policy-item:first-child::before {
+    content: '';
+    display: none;
+}
+
+#footer .util-area .policy-item a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.29em;
+    font-weight: 500;
+    letter-spacing: -.42px;
+    color: #747479;
+}
+
+/* lang-area */
+#footer .util-area .lang-area {
+    position: relative;
+    display: flex;
+}
+
+#footer .util-area .lang-area .lang-img {
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    background-image: url(https://beyondlive.com/img/common-svg-fdb9a457455c4476ad3329407c283b74.svg);
+    background-size: 3012px 1533px;
+    background-position: -428.25px -1224px;
+    background-repeat: no-repeat;
+}
+
+#footer .util-area .lang-area .lang-box {
+    display: block;
+    min-width: auto;
+    height: auto;
+    padding-left: 7px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.29em;
+    font-weight: 500;
+    color: #AFB1B7;
+}
+
+/* #footer .util-area .lang-area .lang-box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #AFB1B7;
+    border-width: 2px 2px 0 0;
+    transform: translateZ(0) translate(-25%, -40%) rotate(135deg);
+    margin-top: -3px;
+}
+#footer .util-area .lang-area .lang-box.active::after {
+    content: '';
+    right: 4px;
+    margin-top: -2px;
+    transform: rotate(-45deg);
+} */
+
+#footer .util-area .lang-area option {
+    display: block;
+    margin-bottom: 16px;
+    padding: 6px 0 4px;
+    border: 1px solid #E1E1E6;
+    border-radius: 4px;
+    background-color: #1a1b20;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2.57em;
+    font-weight: 700;
+    z-index: 10;
+}
+
+
+/* company-area */
+#footer .inner .company-area {
+    padding-top: 13px;
+}
+
+#footer .company-area .addr-wrap {
+    font-size: 12px;
+    line-height: 1.67em;
+    font-weight: 500;
+    color: #747479;
+    letter-spacing: -0.35px;
+}
+
+.company-area .addr-wrap span {
+    display: block;
+}
+
+.company-area .company-addr a {
+    display: block;
+}
+
+#footer .company-area .addr {
+    display: flex;
+    gap: 23px;
+}
+
+#footer .company-area .addr span {
+    position: relative;
+}
+
+#footer .company-area .addr span::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -11px;
+    width: 1px;
+    height: 12px;
+    background-color: #3A3A3C;
+}
+
+#footer .company-area .addr:last-child span::before {
+    content: '';
+    display: none;
+}
+
+.company-area .addr-wrap .hover:hover {
+    color: #E1E1E6;
+}
+
+.company-area .addr-wrap .hover.inline {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+#footer .company-area .addr {
+    display: flex;
+    gap: 23px;
+}
+
+.company-area .addr-wrap a.tel {
+    display: block;
+    position: relative;
+}
+
+.company-area .addr-wrap a.tel::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -11px;
+    width: 1px;
+    height: 12px;
+    background-color: #3A3A3C;
+}
+
+#footer .company-area .copyright {
+    margin-top: 13px;
+    font-size: 12px;
+    line-height: 1.33em;
+    font-weight: 400;
+    color: #747479;
+}
+
+@media screen and (max-width: 1200px) {
+    /* *1024을 기준으로 화면을 보고 잡아야함 */
+
+}
+
+@media screen and (max-width: 1023px) {
+    /* *768을보고 잡아야함 */
+
+}
+
+@media screen and (max-width: 767px) {
+    /* *320을 보고 잡아야함 */
+
+}

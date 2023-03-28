@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Beyond LIVE</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./asset/css/layout.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/response.css">
+
+    <!-- @https://www.favicon-generator.org/ -->
+    <link rel="shortcut icon" href="https://beyondlive.com/favicon-b478a52992b73ea804cf07b0b046986c.ico">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./asset/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header-common">
+                <h1 class="logo">
+                    <a href=""><span class="blind">Beyond LIVE</span></a>
+                </h1>
+
+                <nav class="gnb-area">
+                    <button class="mobile-btn">
+                        <span class="blind">모바일 메뉴 열기</span>
+
+                        <div class="bar-box">
+                            <i class="bar"></i>
+                            <i class="bar"></i>
+                            <i class="bar"></i>
+                        </div>
+                    </button>
+
+                    <div class="gnb-wrap">
+                        <div class="gnb-box">
+                            <ul class="gnb-list">
+                                <li class="gnb-item mobile">
+                                    <a href="">HOME</a>
+                                </li>
+
+                                <li class="gnb-item">
+                                    <a href="">LIVE</a>
+                                </li>
+
+                                <li class="gnb-item">
+                                    <a href="">VOD</a>
+                                </li>
+
+                                <li class="gnb-item">
+                                    <a href="">LIBRARY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button class="mobile-close">
+                        <img src="./asset/images/mobile-close.png" alt="메뉴 닫기">
+                    </button>
+                </nav>
+
+                <!-- link-login -->
+                <a href="" class="link-login">로그인</a>
+                <a href="" class="mobile-login">
+                    <img src="https://beyondlive.com/img/icon_profile_empty.svg" alt="로그인 하기">
+                </a>
+            </div>
+        </header>
+
+        <main id="container">
+            <section class="sc-visual">
+                <h2 class="blind">주요 공연</h2>
+
+                <div class="swiper main-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <span class="bg">
+                                    <img
+                                        src="https://static.beyondlive.com/banner/900b39425ff440b996d11be978414148.jpg">
+                                </span>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-songkang.jpg" alt="송강">
+                                        </div>
+                                        <em>송강</em>
+                                    </div>
+
+                                    <h3 class="concert-name">
+                                        <a href="">2023 송강 아시아 팬미팅 투어 &lt;강이로운 순간&gt; IN SEOUL</a>
+                                    </h3>
+
+                                    <span class="date">2023. 02. 11. 17:00 (KST)</span>
+
+                                    <a href="" class="btn-info">공연 정보 확인</a>
+                                </div>
+
+                                <div class="img-box">
+                                    <img src="https://static.beyondlive.com/contents/17981f1309f34de0b6da0012db3f18bc.jpg"
+                                        alt="2023 송강 아시아 팬미팅 투어 '강이로운 순간' IN SEOUL">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <span class="bg artist2">
+                                    <img
+                                        src="https://static.beyondlive.com/banner/7d5255ce1d774e388ee4e45fcedda8b8.jpg">
+                                </span>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-kai.jpg" alt="카이">
+                                        </div>
+                                        <em>KAI</em>
+                                    </div>
+
+                                    <h3 class="concert-name">
+                                        <a href="">#Cinema - KAI : KLoor</a>
+                                    </h3>
+
+                                    <span class="date">2022. 12. 08. 20:00 (KST)</span>
+                                    <a href="" class="btn-info color">VOD 정보 확인</a>
+                                </div>
+
+                                <div class="img-box">
+                                    <img src="https://static.beyondlive.com/contents/2a64c226daeb4313981d0a987c3dab92.jpg"
+                                        alt="#Cinema - KAI : KLoor">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <span class="bg artist3">
+                                    <img
+                                        src="https://static.beyondlive.com/banner/78bfe19d8ae249b6a4f4fc279c1bd4b2.jpg">
+                                </span>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-ive.jpg" alt="IVE">
+                                        </div>
+                                        <em>IVE</em>
+                                    </div>
+
+                                    <h3 class="concert-name">
+                                        <a href="">IVE THE FIRST FAN CONCERT &lt;The Prom Queens&gt;</a>
+                                    </h3>
+
+                                    <span class="date">2023. 02. 12. 17:00 (KST)</span>
+
+                                    <a href="" class="btn-info">공연 정보 확인</a>
+                                </div>
+
+                                <div class="img-box">
+                                    <img src="https://static.beyondlive.com/contents/4d0bbd47ba7f4fd49605a87e6668619a.jpg"
+                                        alt="IVE THE FIRST FAN CONCERT ‘The Prom Queens’">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <span class="bg artist4">
+                                    <img
+                                        src="https://static.beyondlive.com/banner/25ff38b914624682ab50886dc8cf62d3.jpg">
+                                </span>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-parkjinyoung.jpg"
+                                                alt="박진영"></div>
+                                        <em>박진영</em>
+                                    </div>
+
+                                    <h3 class="concert-name">
+                                        <a href="">2023 PARK JINYOUNG FANCONCERT 'RENDEZVOUS' IN SEOUL: Secret meeting
+                                            between you and me</a>
+                                    </h3>
+
+                                    <span class="date">2023. 01. 29. 17:00 (KST)</span>
+
+                                    <a href="" class="btn-info">공연 정보 확인</a>
+                                </div>
+
+                                <div class="img-box">
+                                    <img src="https://static.beyondlive.com/contents/bd9a2e0f11fc455489445b77828342e0.jpg"
+                                        alt="2023 PARK JINYOUNG FANCONCERT 'RENDEZVOUS' IN SEOUL: Secret meeting between you and me">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <a href="" class="btn prev" role="button" aria-label="이전"></a>
+                    <a href="" class="btn next" role="button" aria-label="다음"></a>
+                </div>
+            </section>
+
+            <aside class="inner sc-banner">
+                <h2 class="blind">관련사이트</h2>
+
+                <div class="swiper banner-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://smtown.com/">
+                                <img src="./asset/images/banner1.jpg" alt="SMTOWN">
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="https://www.jype.com/">
+                                <img src="./asset/images/banner2.jpg" alt="JYP">
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="https://www.smtownandstore.com/">
+                                <img src="./asset/images/banner3.png" alt="SMTOWN & STORE">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="section sc-next">
+                <h2 class="title">Beyond NEXT</h2>
+
+                <div class="swiper next-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="" class="">
+                                <div class="img-box">
+                                    <img src="./asset/images/next1.jpg" alt="#Cinema - KAI : KLoor">
+                                </div>
+                                <!-- 클레스로 설정시 관리자모드나 개발단에서 처리가 불간능할수있기때문에
+                                    inlin-style을 넣기로함
+                                -->
+                                <div class="txt-box" style="background-color: #f45085;">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-kai.jpg" alt="KAI">
+                                        </div>
+                                        <em>KAI</em>
+                                    </div>
+                                    <p class="concert-name">#Cinema - KAI : KLoor</p>
+                                    <a href="" class="btn-detail">상세보기</a>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="" class="swiper-wrap">
+                                <div class="img-box">
+                                    <img src="./asset/images/next2.jpg"
+                                        alt="2023 PARK JINYOUNG FANCONCERT 'RENDEZVOUS' IN SEOUL: Secret meeting between you and me">
+                                </div>
+
+                                <div class="txt-box bg3">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-parkjinyoung.jpg" alt="박진영">
+                                        </div>
+                                        <em>박진영</em>
+                                    </div>
+                                    <p class="concert-name">
+                                        2023 PARK JINYOUNG FANCONCERT 'RENDEZVOUS' IN SEOUL: Secret
+                                        meeting between you and me
+                                    </p>
+                                    <span class="date">2023. 01. 29. 17:00 (KST)</span>
+                                    <a href="" class="btn-detail">상세보기</a>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="" class="swiper-wrap">
+                                <div class="img-box">
+                                    <img src="./asset/images/next3.jpg" alt="2023 송강 아시아 팬미팅 투어 '강이로운 순간' IN SEOUL">
+                                </div>
+                                
+                                <div class="day-box" id="time01"></div>
+
+                                <div class="txt-box bg3">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-songkang.jpg" alt="송강">
+                                        </div>
+                                        <em>송강</em>
+                                    </div>
+                                    
+                                    <p class="concert-name">2023 송강 아시아 팬미팅 투어 &lt;강이로운 순간&gt; IN SEOUL</p>
+
+                                    <span class="date">2023. 02. 11. 17:00 (KST)</span>
+
+                                    <a href="" class="btn-detail">상세보기</a>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="" class="swiper-wrap">
+                                <div class="img-box">
+                                    <img src="./asset/images/next4.jpg"
+                                        alt="IVE THE FIRST FAN CONCERT 'The Prom Queens'">
+                                </div>
+
+                                <div class="day-box" id="time02"></div>
+
+                                <div class="txt-box bg3">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-ive.jpg" alt="IVE">
+                                        </div>
+                                        <em>IVE</em>
+                                    </div>
+
+                                    <p class="concert-name">IVE THE FIRST FAN CONCERT &lt;The Prom Queens&gt;</p>
+
+                                    <span class="date">2023. 02. 12. 17:00 (KST)</span>
+
+                                    <a href="" class="btn-detail">상세보기</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="" class="btn-all">공연 전체보기</a>
+            </section>
+
+            <div class="inner">
+                <section class="sc-notice">
+                    <h2 class="title"><a href="">공지사항</a></h2>
+
+                    <ul class="notice-list">
+                        <li class="notice-item">
+                            <a href="">
+                                <span class="notice-title">[공연안내] 2023 임시완 팬 콘서트 &lt;WHY I AM in SEOUL&gt; 온라인 티켓 오픈
+                                    공지</span>
+                                <span class="date">2023. 01. 17</span>
+                            </a>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="">
+                                <em class="notice-title">[공연안내] 2023 송강 아시아 팬미팅 투어 &lt;강이로운 순간&gt; IN SEOUL 온라인 티켓 오픈
+                                    공지</em>
+
+                                <span class="date">2023. 01. 13</span>
+                            </a>
+                        </li>
+
+                        <li class="notice-item">
+                            <a href="">
+                                <em class="notice-title">[안내] #Cinema - KAI : KLoor VOD 출시 안내</em>
+
+                                <span class="date">2023. 01. 11</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a href="" class="btn-all">전체보기</a>
+                </section>
+
+                <section class="section sc-vod">
+                    <h2 class="title">Beyond VOD</h2>
+
+                    <ul class="vod-list">
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-kai.jpg" alt="#Cinema - KAI : KLoor">
+
+                                    <div class="tag-box">
+                                        <span class="icon ex">EXCLUSIVE</span>
+                                        <span class="icon new">NEW</span>
+                                    </div>
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-kai.jpg" alt="KAI">
+                                        </div>
+                                        <em>KAI</em>
+                                    </div>
+
+                                    <p class="des">#Cinema - KAI : KLoor</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-key.jpg" alt="KEY : ‘GROKS IN THE KEYLAND’">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-key.jpg" alt="KEY">
+                                        </div>
+                                        <em>KEY</em>
+                                    </div>
+
+                                    <p class="des">KEY : ‘GROKS IN THE KEYLAND’</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-exo.png" alt="EXO의 사다리 타고 세계여행 - 남해편">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-exo.png" alt="EXO">
+                                        </div>
+                                        <em>EXO</em>
+                                    </div>
+
+                                    <p class="des">EXO의 사다리 타고 세계여행 - 남해편</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-shinee.jpg" alt="Beyond VOD - SHINee : SHINee WORLD">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-shinee.jpg" alt="SHINee">
+                                        </div>
+                                        <em>SHINee</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - SHINee : SHINee WORLD</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-2pm.jpg"
+                                        alt="Beyond VOD - 2PM ONLINE FANMEETING 'Dear. HOTTEST'">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-2pm.png" alt="2PM">
+                                        </div>
+                                        <em>2PM</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - 2PM ONLINE FANMEETING <Dear. HOTTEST>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-day6.jpg"
+                                        alt="Beyond VOD - DAY6 (Even of Day) : Right Through Me">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img">
+                                            <img src="./asset/images/artist-day6.jpg" alt="DAY6">
+                                        </div>
+                                        <em>DAY6 (Even of Day)</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - DAY6 (Even of Day) : Right Through Me</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-baekhyun.jpg" alt="Beyond VOD - BAEKHYUN : LIGHT">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-baekhyun.jpg"
+                                                alt="BAEKHYUN"></div>
+                                        <em>BAEKHYUN</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - BAEKHYUN : LIGHT</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-nct.jpg"
+                                        alt="Beyond VOD - NCT : RESONANCE 'Global Wave’">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-nct.jpg" alt="NCT">
+                                        </div>
+                                        <em>NCT 2020</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - NCT : RESONANCE 'Global Wave’</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-tvxq.jpg"
+                                        alt="Beyond VOD - 2020 TVXQ! ONLINE FANMEETING '동(冬),방(房),신기 with Cassiopeia">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-tvxq.jpg" alt="TVXQ!">
+                                        </div>
+                                        <em>TVXQ!</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - 2020 TVXQ! ONLINE FANMEETING '동(冬),방(房),신기 with
+                                        Cassiopeia</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-kry.png"
+                                        alt="Beyond VOD - SUPER JUNIOR-K.R.Y. : 푸르게 빛나는 우리의 계절(The moment with us)">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-k.r.y.png"
+                                                alt="SUPER JUNIOR-K.R.Y."></div>
+                                        <em>SUPER JUNIOR-K.R.Y.</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - SUPER JUNIOR-K.R.Y. : 푸르게 빛나는 우리의 계절(The moment
+                                        with us)</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-twice.jpg" alt="Beyond VOD - TWICE : World In A Day">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-twice.jpg" alt="TWICE">
+                                        </div>
+                                        <em>TWICE</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - TWICE : World In A Day</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-superjunior.jpg"
+                                        alt="Beyond VOD - SUPER JUNIOR : Beyond the SUPER SHOW">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-superJunior.jpg"
+                                                alt="SUPER JUNIOR"></div>
+                                        <em>SUPER JUNIOR</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - SUPER JUNIOR : Beyond the SUPER SHOW</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-tvxq(red).jpg" alt="Beyond VOD - TVXQ! : Beyond the T">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-tvxq2.jpg" alt="TVXQ!">
+                                        </div>
+                                        <em>TVXQ!</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - TVXQ! : Beyond the T</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-nct127.jpg"
+                                        alt="Beyond VOD - NCT 127 : Beyond the Origin">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-nct127.jpg"
+                                                alt="NCT 127"></div>
+                                        <em>NCT 127</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - NCT 127 : Beyond the Origin</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-nctdream.jpg"
+                                        alt="Beyond VOD - NCT DREAM : Beyond the Dream Show">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-nctDream.jpg"
+                                                alt="NCT DREAM"></div>
+                                        <em>NCT DREAM</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - NCT DREAM : Beyond the Dream Show</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-wayv.jpg" alt="Beyond VOD - WayV : Beyond the Vision">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-wayV.jpg" alt="WayV">
+                                        </div>
+                                        <em>WayV</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - WayV : Beyond the Vision</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="vod-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./asset/images/vod-superm.png"
+                                        alt="Beyond VOD - SuperM : Beyond the Future">
+                                </div>
+
+                                <div class="txt-box">
+                                    <div class="artist">
+                                        <div class="artist-img"><img src="./asset/images/artist-superM.png"
+                                                alt="SuperM"></div>
+                                        <em>SuperM</em>
+                                    </div>
+
+                                    <p class="des">Beyond VOD - SuperM : Beyond the Future</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a href="" class="btn-all">VOD 전체보기</a>
+                </section>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="inner-bg">
+                <div class="inner">
+                    <ul class="sns-list">
+                        <li class="sns-item">
+                            <a href="https://www.facebook.com/BeyondLiveCo/" class="facebook"><span
+                                    class="blind">페이스북</span></a>
+                        </li>
+
+                        <li class="sns-item">
+                            <a href="https://twitter.com/Beyond_LIVE" class="twitter"><span class="blind">트위터</span></a>
+                        </li>
+
+                        <li class="sns-item">
+                            <a href="https://www.youtube.com/hashtag/beyond_live" class="youtube"><span
+                                    class="blind">유튜브</span></a>
+                        </li>
+
+                        <li class="sns-item">
+                            <a href="https://www.instagram.com/beyond_live_/" class="insta"><span
+                                    class="blind">인스타그램</span></a>
+                        </li>
+
+                        <li class="sns-item">
+                            <a href="https://weibo.com/u/7439948944" class="weibo"><span class="blind">웨이보</span></a>
+                        </li>
+                    </ul>
+
+                    <!-- 소문자 -->
+                    <div class="appstore-wrap">
+                        <a href="" class="apple-box"><span class="blind">Download on the App Store</span></a>
+                        <a href="" class="google-box"><span class="blind">GET IT ON Google Play</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner">
+                <div class="util-area">
+                    <ul class="policy-list">
+                        <li class="policy-item">
+                            <a href="">이용약관</a>
+                        </li>
+
+                        <li class="policy-item">
+                            <a href="">개인정보처리방침</a>
+                        </li>
+
+                        <li class="policy-item">
+                            <a href="">1:1 문의</a>
+                        </li>
+
+                        <li class="policy-item">
+                            <a href="">FAQ</a>
+                        </li>
+
+                        <li class="policy-item">
+                            <a href="">채용공고</a>
+                        </li>
+                    </ul>
+
+                    <div class="lang-area">
+                        <button class="lang-img"><span class="blind">언어</span></button>
+
+                        <select name="" id="language" class="lang-box">
+                            <option value="https://www.kurly.com/main">KOR</option>
+                            <option value="https://www.chosun.com/international/">JPN</option>
+                            <option value="https://www.kurly.com/collections/market-best">ENG</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="company-area">
+                    <address class="addr-wrap">
+                        <p class="addr">
+                            <a href="" class="hover">주식회사 비욘드라이브코퍼레이션</a>
+                            <span>사업자 등록번호 : 503-84-12626</span>
+                            <span>통신판매업신고 : <a href="" class="hover inline">제 2021 - 서울강남 - 06584 호</a></span>
+                            <span>대표자 : 김성욱</span>
+                        </p>
+
+                        <p class="addr">
+                            <span>주소 : 서울시 강남구 선릉로 428, 위워크 선릉 3호점(대치동)</span>
+                            <a href="tel:+070-4650-2040" class="tel">대표번호 : 070-4650-2040</a>
+                        </p>
+                    </address>
+
+                    <p class="copyright">Copyright © Beyond LIVE Corporation. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
